@@ -4,9 +4,9 @@
 
 * M = monthly payment 
 * P = principal amount
-* I = monthly interest rate ($\frac{anuualRate}{12}$)
+* R = monthly interest rate ($\frac{anuualRate}{12}$)
 * N = number of payments in months (ex.: 10 years -> 120 payments)
 
 #### Formula used to Calculate the payments:
 
-$M = P * \frac{I*(1+I)^N}{(1+I)^N - 1}$
+$M = P * \frac{R*(1+R)^N}{(1+R)^N - 1}$
